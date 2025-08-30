@@ -20,7 +20,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Running a test build..."
-                sh 'echo Hello from Jenkins! This is the test build for ${PROJECT}.'
+                sh 'echo Hello from Jenkins! This is a test build for ${PROJECT}.'
             }
         }
 
